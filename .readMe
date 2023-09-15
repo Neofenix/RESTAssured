@@ -1,0 +1,5 @@
+ ./gradlew clean test
+ ./gradlew AllureReport
+docker run -p 8080:8080 -p 50000:50000 --name jenkins -d -v C:\Users\jzapa\Downloads\jenkins_home:/var/jenkins_home jenkins/jenkins
+docker logs -f (Container)
+Instalar plugin allure
